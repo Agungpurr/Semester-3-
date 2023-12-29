@@ -1,0 +1,21 @@
+class contoh_perulangan {
+    public static void main (String [] args){
+        int a = 1;
+        while (a<=5){
+            System.out.println(a);
+            a++;
+        }
+        
+        int b=5;
+        do {
+            System.out.println(b);
+            b--;
+        }
+        while (b>0);
+        
+        for (int x=1; x<=5; x++){
+            System.out.println(x);
+        }
+    }
+    
+}
